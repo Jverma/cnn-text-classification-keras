@@ -36,7 +36,7 @@ x_train, y_train, x_val, y_val, word_index = tp.preprocess()
 
 - Build the embeddings index.
 ```
-embeddings_index = tp.build_embedding_index_from_word2vec(fname, word_index)
+embeddings_index = tp.build_embedding_index_from_word2vec(path_to_wordvec_file, word_index)
 ```
 
 - Serialize the data after the processing.
