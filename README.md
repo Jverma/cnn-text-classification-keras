@@ -21,6 +21,7 @@ from text_processing_util import TextProcessing
 tp = TextProcessing(texts, labels, EMBEDDING_DIM, MAX_SEQUENCE_LENGTH, MAX_NB_WORDS, VALIDATION_SPLIT)
 ```
 where
+
 	- texts: a list of sentences.
 	- labels: a list of labels corresponding to the sentences in the list texts.
 	- MAX_SEQUENCE_LENGTH: maximum length of the sentence to be considered, longer sentences will be terminated at this length.(default is 50)
